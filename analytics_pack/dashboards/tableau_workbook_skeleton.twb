@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<workbook>
+  <document-format-change-manifest/>
+  <datasources>
+    <datasource name="Databricks_SQL" hasconnection="true" inline="true">
+      <connection class="genericodbc" dbname="DatabricksSQL" server="YOUR_SERVER" port="443" username="token" />
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name="DAU Trend">
+      <table/>
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name="Exec Overview">
+      <size maxheight="900" maxwidth="1400" minheight="900" minwidth="1400"/>
+    </dashboard>
+  </dashboards>
+</workbook>
